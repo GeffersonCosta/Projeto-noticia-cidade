@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x center top;
+
+	
+
+
+
+}
+header{
+	height: 150px;
+	width: 750px;
+	background: url(../imagens/detalhe-topo.png) right top no-repeat ;
+	background-size: 150px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+
+header nav{
+	background-color:#b10333;
+	padding: 10px 0px 10px 0px;
+	display: inline-block;
+}
+header a{
+	padding: 11.5px;
+	color: white;
+	text-decoration: none; 
+	font-weight: bold;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+header a:hover{
+	background-color:red;
+	transition: 0.5s;
+}
+.primeiro{
+	background: none;
+}
+
+header img{
+	padding: 15px 0px 15px 0px;
+}
+body.home nav a#home,body.brasil nav a#brasil,body.fotos nav a#fotos{
+	background: red;
+	cursor: text;
+}
+
+/************************Fim Topo*****************************************/
+
+
+
+/********************Inicio conteudo********************/
+
+.fundo{
+	background-image: url(../imagens/fundo-caixa.png);
+}
+.fundo-conteudo{
+	background-color: white;
+}
+main{
+	
+	margin: 0 auto;
+	width: 970px;
+	padding: 10px;
+	
+
+}
+main > nav{
+
+	width: 200px;
+	float:left;
+	background-color: white;
+	padding: 10px;
+	margin-right: 20px;
+	
+
+}
+main > nav > ul{
+	list-style: none;
+	background-color: white;
+	
+}
+main > nav > ul  a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+main > nav > ul  a:hover{
+	background: url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 19px;
+	color: rgb(0, 0, 0, 0.3);
+}
+/*
+main > nav > ul a:hover::before{
+	content:url(../imagens/marcador.png);
+}
+*/
+
+main > nav > ul > li{
+	padding: 15px;
+}
+
+section.conteudo{
+	width: 700px;
+	float: left;
+}
+article#pconteudo,article#sconteudo,article#qconteudo,article#tconteudo{
+	
+	width: 300px;
+	padding: 10px;
+    font-weight: bold;
+	
+
+}
+article#pconteudo{
+	float: left;
+	margin-right: 25px;
+}
+article#sconteudo{
+	float: left;
+	margin-bottom:10px ;
+}
+article#tconteudo{
+	float: left;
+	margin-right: 29px;
+
+}
+article#qconteudo{
+	float: left;
+
+}
+#pconteudo img, #sconteudo img,#qconteudo img{
+	width: 290px;
+	display: block;
+	margin: auto;
+}
+#tconteudo{
+	height: 100%;
+}
+article#tconteudo img{
+	width: 100px;
+	float: left;
+}
+article#tconteudo .mundo-conteudo{
+	width: 180px;
+	float: left;
+
+}
+article#tconteudo .mundo-conteudo p{
+	padding-left:10px;
+}
+.conteudo1{
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	
+}
+article#pconteudo{
+	margin-right: 30px;
+}
+.fundo-conteudo{
+	padding: 5px;
+}
+.formulario{
+	
+	padding: 5px;
+	margin-top: 20px;	
+}
+.formulario div{
+	padding: 4px;
+}
+.formulario h2{
+	border-top: 20px solid white;
+	margin-top: 10px;
+	
+
+}
+.formulario input{
+	border: 1px solid #ccc;
+	height: 25px;
+}
+.formulario h2{
+	margin-bottom: 10px;
+}
+form{
+	background-color: white;
+
+}
+label{
+	font-weight: bold;
+}
+input[type="submit"]{
+	background-color: #b10333;
+	color: white;
+	padding: 5px;
+}
+
+section a{
+	color: #b10333;
+}
+/************INICIO OUTRAS PAGINAS********************************/
+.container-brasil,.container-mundo{
+	width: 700px;
+	float: left;
+	
+}
+#conteudo-brasil{
+	padding: 10px;
+	
+	
+}
+.brasil #conteudo-brasil img{
+
+	width: 100%;
+
+}
+.brasil section{
+	margin-bottom: 10px;
+}
+.container-mundo img{
+	width: 100px;
+	float: left;
+
+}
+.mundo-conteudoB{
+	width: 400px;
+  
+   float: left;
+}
+.conteudoB{
+	padding-bottom: 10px;
+	
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.fundo-conteudo{
+	padding: 5px;
+}
+.container-mundo .fundo{
+ padding: 10px;
+}
+.fotos section, #novalegislacao{
+	margin-left: 12%;
+	margin-bottom: 10px;
+}
+.fotos #conteudo-brasil img, #novalegislacao img{
+	display: block;
+	margin: auto;
+	width: 100%;
+
+}
+.fotos main{
+	height: 100%;
+	clear: both;
+}
+
+
+
+
+
+
+/************FIM OUTRAS PAGINAS********************************/
+
+
+h2{
+	background-color: #294C71;
+	color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+h3{
+	background-color: #b10333;
+	color: white;
+	font-size: 1em;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-left: 3.5px;
+
+}
+H5{
+	
+	color: slateblue;
+	text-indent: 14px;
+	font-size: 0.7em;
+}
+
+.clear{
+	clear: both;
+}
+/********************fim conteudo********************/
+footer{
+	padding: 20px;
+	background-color: #294c71;
+	color: white;
+	text-align: center;
+	clear: both;
+}
